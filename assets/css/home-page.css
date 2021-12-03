@@ -1,0 +1,359 @@
+.body-profile-header-img {
+    background-image: url(../img/profile-bg-img.png);
+    height: 180px;
+}
+
+.body-left {
+    margin-top: 30px;
+}
+
+.body-profile-edit-button {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #181818;
+    text-align: right;
+    border: none;
+    font-size: 13px;
+    padding: .3rem .6rem;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.body-profile-header-bottom {
+    background-color: white;
+    padding: 0rem 1rem;
+}
+
+.body-profile-p-info {
+    font-size: 14px;
+    color: #181818;
+    font-weight: 400;
+}
+
+.body-profile-name {
+    color: #181818;
+    font-weight: 600;
+}
+
+.body-profile-company {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.body-profile-img {
+    position: relative;
+    bottom: 20px;
+}
+
+.body-profile-button-left {
+    border: none;
+    background-image: linear-gradient(#0077B5, #0E6795);
+    color: white;
+    padding: .5rem .5rem;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.body-profile-button-right {
+    border: none;
+    background-color: white;
+    color: #0077B5;
+    border: 2px solid #0077B5;
+    padding: .5rem .5rem;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.body-tabs .nav-item {
+    margin-top: auto;
+}
+
+.body-tabs .nav-item .active {
+    border-radius: 5px 5px 0px 0px !important;
+    background-image: linear-gradient(#0077B5, #0E6795);
+    background-color: unset !important;
+    height: 45px;
+}
+
+.body-tabs .nav-item button {
+    font-size: 12px;
+    background-color: white;
+    color: #181818;
+    font-weight: 500;
+    border: 1px solid #E7E7E7;
+    width: 180px;
+    border-radius: 0px;
+}
+
+.tab-in-button {
+    color: #0275B1;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.body-sections-bg {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sections-in-head {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tab-in-p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.projects-head {
+    font-weight: 500;
+    font-size: 14px;
+    color: #181818;
+    margin-bottom: 0px !important;
+    line-height: 1 !important;
+    margin-top: 10px;
+}
+
+.projects-date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.swiper-slide {
+    margin-left: 8px;
+}
+
+.swiper-button-left {
+    position: absolute;
+    margin-left: -23px;
+    margin-top: -124px;
+}
+
+.swiper-button-right {
+    position: relative;
+    z-index: 50;
+    margin-top: -124px;
+    float: right;
+    right: -22px;
+}
+
+.sections-in-number {
+    margin-left: 5px;
+    color: #747474;
+}
+
+.experience-body-head {
+    font-size: 14px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 5px !important;
+}
+
+.experience-body-job {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.experience-body-world {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.experience-body-date {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.experience-body-experience {
+    color: #0275B1;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.experience-p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.experience-left-img {
+    float: left;
+}
+
+.experience-right {
+    float: left;
+    display: contents;
+    margin-left: 10px;
+}
+
+.experience-hr {
+    background-color: #cecece;
+    width: 100%;
+}
+
+.experience-body-date {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.experience-body-year {
+    font-size: 10px;
+    font-weight: 600;
+    color: #0275B1;
+}
+
+.experience-p-2 {
+    margin-bottom: 0px;
+}
+
+
+/*BODY RİGHT CSS*/
+
+.body-right {
+    margin-top: 30px;
+}
+
+.body-right-bg {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.4rem 1rem;
+}
+
+.body-right-head {
+    color: #181818;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.body-right-a {
+    color: #0275B1;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.body-right-hr {
+    background-color: #cfcfcf;
+    margin-bottom: 0px !important;
+}
+
+.body-right-col {
+    display: flex;
+}
+
+.dashboard-big-number {
+    color: #0275B1;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.dashboard-big-number-info {
+    font-size: 14px;
+}
+
+.dashboard-big {
+    margin-bottom: -15px;
+}
+
+.visitors-profile-bg {
+    display: flex;
+    align-items: center;
+}
+
+.visitors-profile-text {
+    float: left;
+}
+
+.visitors-profile-head {
+    font-weight: 600;
+    font-size: 14px;
+    color: #181818;
+}
+
+.visitors-profile-description {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.visitors-profile-text {
+    margin-left: 8px;
+}
+
+.visitors-profile-head-2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #181818;
+}
+
+.visitors-profile-view {
+    font-size: 11px;
+    font-weight: 400;
+    color: #181818;
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile-header-bar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .body-profile-header-img {
+        background-position: center;
+        margin-top: 50px;
+    }
+    .body-left {
+        margin-top: 50px;
+    }
+    .body-profile-header-bottom {
+        text-align: center;
+        padding-bottom: 1.5rem !important;
+    }
+    .body-profile-button-right {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .body-tabs li {
+        width: 100%;
+    }
+    .body-tabs .nav-item button {
+        width: 100%;
+        border-bottom: 1px solid #E7E7E7;
+    }
+}

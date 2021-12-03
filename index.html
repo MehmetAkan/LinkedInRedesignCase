@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/home-page.css" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 header-bar-col">
+                    <div class="header-bar-logo text-center">
+                        <img class="img-fluid" src="assets/img/logo.png">
+                    </div>
+                    <div class="header-bar-line"></div>
+                    <div class="header-bar-menu">
+                        <ul class="header-bar-menu-ul">
+                            <li>
+                                <div class="header-bar-menu-div">
+                                    <img class="img-fluid" src="assets/img/rss.png">
+                                    <a class="header-bar-menu-a" href="#">FEED</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header-bar-menu-div">
+                                    <img class="img-fluid" src="assets/img/users.png">
+                                    <a class="header-bar-menu-a" href="#">NETWORK</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header-bar-menu-div">
+                                    <img class="img-fluid" src="assets/img/briefcase.png">
+                                    <a class="header-bar-menu-a" href="#">JOBS</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header-bar-menu-div">
+                                    <img class="img-fluid" src="assets/img/Vector.png">
+                                    <a class="header-bar-menu-a" href="#">CHAT</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header-bar-menu-div">
+                                    <img class="img-fluid" src="assets/img/bell.png">
+                                    <a class="header-bar-menu-a" href="#">NOTICES</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-bar-line"></div>
+                    <div class="header-bar-search">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><img src="assets/img/search.png"></span>
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="header-bar-line"></div>
+                    <div class="header-bar-profile">
+                        <img class="header-profile-image" src="assets/img/profile.png">
+                        <div class="header-bar-right">
+                            <div><span class="profile-name">D. Kargaev</span><span class="profile-who">YOU</span></div>
+                            <div><span class="profile-today-info">367 views today</span><span class="profile-number">+32<img class="img-fluid" src="assets/img/profile-up.png"></span></div>
+                        </div>
+                    </div>
+                    <div class="header-bar-line"></div>
+                    <div class="header-bar-other text-center">
+                        <img src="assets/img/more-horizontal.png">
+                        <div><span>OTHER</span></div>
+                    </div>
+                    <div class="header-bar-free">
+
+                    </div>
+                    <div class="header-bar-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mobile-header-bar">
+        <div class="row">
+            <div class="col-6 mt-auto mb-auto">
+                <div class="header-bar-left">
+                    <img class="img-fluid mobile-bar-logo" src="assets/img/logo.png">
+                    <div class="header-bar-logo-span">
+                        Linked<span>In</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6 text-end mt-auto mb-auto">
+                <a><img src="assets/img/more-horizontal-y.png"></a>
+            </div>
+        </div>
+
+    </section>
+    <section class="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-lg-9 body-left">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="body-profile-header-img text-end">
+                                <div class="body-profile-buttons">
+                                    <button class="body-profile-edit-button"> <img src="assets/img/edit.png"> EDIT PROFILE</button>
+                                    <button class="body-profile-edit-button"> <img src="assets/img/more-horizontal-y.png"> </button>
+                                </div>
+                            </div>
+                            <div class="body-profile-header-bottom">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="img-fluid body-profile-img" src="assets/img/body-profile.png">
+                                    </div>
+                                    <div class="col-md-9 mt-3 mobile-mt-0">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span class="body-profile-name">Dmitry Kargaev <img src="assets/img/lin-gold.png"></span>
+                                            </div>
+                                            <div class="col-md-7 col-12 text-end mobile-text-center ">
+                                                <span class="body-profile-company"><img src="assets/img/navigation-blue.png"> Saint Petersburg, Russian Federation</span>
+                                            </div>
+                                            <div class="col-md-12 mt-2">
+                                                <p class="body-profile-p-info mt-2">
+                                                    Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button class="body-profile-button-left">CONTACT INFO</button>
+                                                <button class="body-profile-button-right">1,043 CONNECTİONS</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                            <ul class="nav nav-pills body-tabs mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">PROFILE</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button style="border-left: 0px !important;" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">ACTIVITY & INTERESTS</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"> ARTICLES (3)</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 mt-2">
+                            <div class="body-sections-bg">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h6 class="sections-in-head">About</h6>
+                                                <p class="tab-in-p">I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites. </p>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <a class="tab-in-button">SEE MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                            <div class="body-sections-bg">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <span class="sections-in-head">Projects</span>
+                                        <span class="sections-in-number">3 of 12</span>
+                                    </div>
+                                    <div class="col-md-12 mt-5">
+                                        <div class="swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">Zara redesign concept</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext-2.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">SCTHON event brand identity</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext-3.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">Drozd. Brand identity. 2016</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">Zara redesign concept</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext-2.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">SCTHON event brand identity</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/img/ext-3.png">
+                                                        </div>
+                                                        <div class="col-md-12 text-start">
+                                                            <h6 class="projects-head">Drozd. Brand identity. 2016</h6>
+                                                            <span class="projects-date">UX/UI design, 15.07.2019</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-button-left">
+                                            <img src="assets/img/left-icon.png">
+                                        </div>
+                                        <div class="swiper-button-right">
+                                            <img src="assets/img/right-icon.png">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                            <div class="body-sections-bg">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <span class="sections-in-head">Experience</span>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <img class="experience-left-img" src="assets/img/experience-orenge.png">
+                                        <div class="experience-right">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="experience-body-head">Freelance UX/UI designer</h6>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <span class="experience-body-job">Self Employed</span>
+                                                    <span class="experience-body-world">Around the world</span>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <span class="experience-body-date">Jun 2016 — Present</span>
+                                                    <span class="experience-body-year">3 yrs 3 mos</span>
+                                                </div>
+                                                <div class="col-md-12 mt-2">
+                                                    <p class="experience-p">Work with clients and web studios as freelancer. Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr class="experience-hr">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <img class="experience-left-img" src="assets/img/experience-green.png">
+                                        <div class="experience-right">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="experience-body-head">UX/UI designer</h6>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <span class="experience-body-job">Upwork</span>
+                                                    <span class="experience-body-world">International</span>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <span class="experience-body-date">Jun 2019 — Present</span>
+                                                    <span class="experience-body-year">3 mos</span>
+                                                </div>
+                                                <div class="col-md-12 mt-2">
+                                                    <p class="experience-p">New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                            <div class="body-sections-bg">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <span class="sections-in-head">Education</span>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <img class="experience-left-img" src="assets/img/experience-logo.png">
+                                        <div class="experience-right">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="experience-body-head">Moscow State Linguistic University</h6>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p class="experience-p-2">Bachelor's degree Field Of StudyComputer and Information Systems Security/Information Assurance</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <span class="experience-body-date">2013 — 2017</span>
+                                                </div>
+                                                <div class="col-md-12 mt-2">
+                                                    <p class="experience-p">Additional English classes and UX profile courses​.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 body-right">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="body-right-bg">
+                                <div class="row">
+                                    <div class="col-md-12 body-right-col">
+                                        <span class="body-right-head">YOUR DASHBOARD</span>
+                                        <a class="body-right-a" href="#">GO TO STATS</a>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <hr class="body-right-hr">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="dashboard-big"><span class="dashboard-big-number">367</span></div>
+                                        <span class="dashboard-big-number-info">views today</span>
+                                    </div>
+                                    <div class="col-md-12 mt-2">
+                                        <div class="dashboard-big"><span class="dashboard-big-number">15</span></div>
+                                        <span class="dashboard-big-number-info">posts views</span>
+                                    </div>
+                                    <div class="col-md-12 mt-2">
+                                        <div class="dashboard-big"><span class="dashboard-big-number">9</span></div>
+                                        <span class="dashboard-big-number-info">search appereances</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="body-right-bg">
+                                <div class="row">
+                                    <div class="col-md-12 body-right-col">
+                                        <span class="body-right-head"> VISITORS</span>
+                                        <a class="body-right-a" href="#">VİEW ALL</a>
+                                    </div>
+                                    <div class="col-md-12 mb-2">
+                                        <hr class="body-right-hr">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/right-profile-1.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head">
+                                                    Darlene Black
+                                                </div>
+                                                <div class="visitors-profile-description">
+                                                    HR-manager, 10 000 connec...
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/right-profile-2.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head">
+                                                    Theresa Steward
+                                                </div>
+                                                <div class="visitors-profile-description">
+                                                    iOS developer
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/right-profile-3.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head">
+                                                    Brandon Wilson
+                                                </div>
+                                                <div class="visitors-profile-description">
+                                                    Senior UX designer
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/right-profile-4.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head">
+                                                    Kyle Fisher
+                                                </div>
+                                                <div class="visitors-profile-description">
+                                                    Product designer at Com...
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/right-profile-4.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head">
+                                                    Audrey Alexander
+                                                </div>
+                                                <div class="visitors-profile-description">
+                                                    Team lead at Google
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="body-right-bg">
+                                <div class="row">
+                                    <div class="col-md-12 body-right-col">
+                                        <span class="body-right-head"> You may like these courses</span>
+                                    </div>
+                                    <div class="col-md-12 mb-2">
+                                        <hr class="body-right-hr">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/video-1.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head-2">
+                                                    UX Foundations: Prototyping
+                                                </div>
+                                                <div class="visitors-profile-view">
+                                                    27,959 viewers
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/video-2.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head-2">
+                                                    Designing with Adobe XD and pro
+                                                </div>
+                                                <div class="visitors-profile-view">
+                                                    27,959 viewers
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="visitors-profile-bg">
+                                            <img class="visitors-profile-img" src="assets/img/video-3.png">
+                                            <div class="visitors-profile-text">
+                                                <div class="visitors-profile-head-2">
+                                                    UX Foundations: Styles and GUIs
+                                                </div>
+                                                <div class="visitors-profile-view">
+                                                    13,858 viewers
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-12 mobile-text-center">
+                    <img src="assets/img/logo.png">
+                    <div class="footer-logo-span">
+                        Linked<span>In</span>
+                    </div>
+                </div>
+                <div class="col-md-6 mobile-display">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6 class="footer-head">Navigation</h6>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <ul class="footer-menu-ul">
+                                <li>
+                                    <a href="#" class="footer-menu-a">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Advertising</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Small Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <ul class="footer-menu-ul">
+                                <li>
+                                    <a href="#" class="footer-menu-a">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Advertising</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Small Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <ul class="footer-menu-ul">
+                                <li>
+                                    <a href="#" class="footer-menu-a">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Advertising</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-menu-a">Small Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mobile-display">
+                    <h6 class="footer-head">Fast access</h6>
+                    <div>
+                        <button class="footer-button bg-blue mt-4">Questions? <img  src="assets/img/help-circle.png"></button>
+                    </div>
+                    <div>
+                        <button class="footer-button mt-3">Settings <img  src="assets/img/settings.png"></button>
+                    </div>
+                </div>
+                <div class="col-md-3 mobile-text-center footer-margin-top">
+                    <h6 class="footer-head">Language</h6>
+                    <select class="form-select footer-select mt-4 mobile-mt-0" aria-label="Default select example">
+                        <option selected>English</option>
+                      </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
